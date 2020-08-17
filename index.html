@@ -1,0 +1,170 @@
+﻿<!DOCTYPE html>
+<html lang="">
+<head>
+  <meta charset="utf-8">
+	<!--添加注释-->
+	<!--下面表示网站标题-->
+	<title>Zhang junsong </title>
+	<meta name="description" content="" />
+  	<meta name="keywords" content="" />
+	<meta name="robots" content="" />
+	
+	<link href='http://fonts.googleapis.com/css?family=Maven+Pro:700,900|Open+Sans:300italic,400italic,600italic,400,300,600' rel='stylesheet' type='text/css'>
+	
+	<link href="css/reset.css" rel="stylesheet" type="text/css" />
+	<link href="css/960.css" rel="stylesheet" type="text/css" />
+	<link href="css/styles.css" rel="stylesheet" type="text/css" />
+	<link href="fancybox/jquery.fancybox-1.3.4.css" rel="stylesheet" type="text/css" />
+	
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/smooth-scroll.js"></script>
+	<script type="text/javascript" src="js/jquery.sticky.js"></script>
+	<script type="text/javascript" src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+	<script type="text/javascript" src="js/jquery.easing-1.3.pack.js"></script>
+	<script type="text/javascript" src="fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+	<script type="text/javascript" src="cform.js"></script>
+	
+<script type="text/javascript"> // sticky nav bar 
+  $(document).ready(function(){
+    $("nav").sticky({topSpacing:0});
+  });
+</script>
+
+<script type="text/javascript"> // fancybox
+$(document).ready(function() {
+
+	/* This is basic - uses default settings */
+	
+	$("a.single_image").fancybox();
+	
+	/* Using custom settings */
+	
+	$("a#inline").fancybox({
+		'hideOnContentClick': true
+	});
+
+	/* Apply fancybox to multiple items */
+	
+	$("a.group").fancybox({
+		'transitionIn'	:	'elastic',
+		'transitionOut'	:	'elastic',
+		'speedIn'		:	600, 
+		'speedOut'		:	200, 
+		'overlayShow'	:	false
+	});
+	
+});
+</script>
+	
+</head>
+
+<div class="topbar"></div> <!-- top bar -->
+
+
+
+<nav>
+	<ul>
+		<!--导航链接，可以继续添加-->
+   	    <li><a href="#about">About</a></li>
+		<li><a href="#publications">Publications</a></li>
+		<li></li>
+	</ul>
+</nav> 
+
+
+<div id="about">
+	<div class="container_16">
+	
+	
+    <div class="grid_5">
+		<!--介绍图片，可以做替换-->
+		<div class="about_pic"></div>			
+	</div> <!-- end .grid_5 -->
+    
+    	<div class="grid_6">        	
+			<div class="about_copy">
+            <!--名字-->
+			<h1>姓名</h1>
+            <br><br>
+			<!--其余内容-->
+            <p>Assistant Professor</p>	
+            <p><A href="https://www.cs.cityu.edu.hk/",target="_blank">Department of Computer Science</A></p>
+			<p><A href="https://www.cityu.edu.hk/cityu/index-sc.htm",target="_blank">City University of Hong Kong</A></p>
+            <!--邮箱-->
+			<p><img src="img/icn_mail.png" alt="" /> jingliao AT cityu.edu.hk</p>				
+			<!--地址-->
+			<p><img src="img/icn_address.png" alt="" /> Y6429, 6/F, Yeung Kin Man Academic Building , CityU, Hong Kong<br />	
+			
+			</div> <!-- end .about_copy -->
+		</div> <!-- end .grid_6 -->
+	</div> <!-- end .container_16 -->
+
+	<div class="container_16">
+	
+	<div class="grid_6">
+			<div class="about_copy2">	
+            <h2>short bio  </h2>	
+            <br>	
+			<p>I am an Assistant Professor with the <A href="https://www.cs.cityu.edu.hk/ ">Department of Computer Science</A>, <A href=" https://www.cityu.edu.hk/cityu/index-sc.htm/"> City University of Hong Kong (CityU)</A> since Sep. 2018. Prior to that, I was a Researcher at <A href="https://www.microsoft.com/en-us/research/group/visual-computing/">Visual Computing Group</A>, Microsoft Research Asia (MSRA) from 2015 to 2018. I received my dual Ph.D. degrees from Zhejiang University and Hong Kong University of Science and Technology, under the supervision of  Prof. <A href="http://www.cad.zju.edu.cn/home/jhyu/English.htm">Jinhui Yu</A> and Prof. <A href="http://www.cse.ust.hk/~psander/">Pedro V. Sander</A>.</p>
+           </div> <!-- end .about_copy -->
+	</div> <!-- end .grid_6 -->
+	
+	<div class="grid_5">
+		<div class="skills">
+			<h2>Research Interests</h2>
+			<ul>
+				<li><div class="skill2"><p><strong>Computer Graphics</strong></p></div></li>
+				<li><div class="skill3"><p><strong>Computer Vision</strong></p></div></li>
+				<li><div class="skill4"><p><strong>Deep Learning</strong></p></div></li>
+
+			</ul>
+		</div> <!-- end .skills -->
+	</div> 
+	 <!-- end .grid_5 -->
+	
+	</div> <!-- end .container_16 -->
+</div></div> <!-- end #about -->
+<div class="about_bg_bottom"></div><!-- end #about -->
+
+<div id="publications">
+	<div class="container_16">
+	
+		<div class="subheader">
+			<div class="subheader_line"></div><h2>publications</h2>
+			<div class="subheader_line"></div>
+		</div>	
+    <div class="gallery">
+    
+		<!--每添加一篇论文-->
+        <div class="container_16">
+            <div class="grid_5">
+				<!--每回添加图片，styles.css添加下图片-->
+				<a href="img/image0.png" class="single_image"><div class="screenshot0 ss"></div></a>
+            </div>
+         
+            <div class="tt">        
+			<p>Zhentao Tan, Menglei Chai, Dongdong Chen, <strong>Jing Liao</strong>, Qi Chu, Lu Yuan, Sergey Tulyakov, Nenghai Yu. <strong> MichiGAN: Multi-Input-Conditioned Hair Image Generation for Portrait Editing</strong>, <em>ACM Transactions on Graphics (Proc. Siggraph)</em>, 2020. </p>
+            <p class="intro_line">[<a href="https://mlchai.com/files/tan2020michigan.pdf">Paper</a>][<a href="http://home.ustc.edu.cn/~cd722522/videos/coherent_supp_arxiv.mp4">Video</a>]</p>
+			<p class="intro_line"> </p>
+            </div>     
+	    </div>  	
+       <br></br>
+	   <!--论文结束-->
+    
+		
+		
+        
+     	
+    
+          
+          	  
+	</div><!-- end .gallery -->	
+	</div> <!-- end .container_16 -->
+		
+</div> <!-- end #publications -->
+
+<div class="publications_bg_bottom"></div><!-- end #work -->
+
+<footer>
+  <p>&nbsp;</p>
+</footer>
