@@ -1,0 +1,34 @@
+<div id="publications">
+	<div class="container_16">
+			<div class="subheader">
+			<div class="subheader_line"></div><h2>publications</h2>
+			<div class="subheader_line"></div>
+		</div>	
+    <div class="gallery">
+    		<!--每添加一篇论文-->
+        <div class="container_16">
+            <div class="grid_5">
+				<!--每回添加图片，styles.css添加下图片-->
+				<a href="img/image0.png" class="single_image"><div class="screenshot0 ss"></div></a>
+            </div>
+         
+            <div class="tt">        
+			<p>Zhentao Tan, Menglei Chai, Dongdong Chen, <strong>Jing Liao</strong>, Qi Chu, Lu Yuan, Sergey Tulyakov, Nenghai Yu. <strong> MichiGAN: Multi-Input-Conditioned Hair Image Generation for Portrait Editing</strong>, <em>ACM Transactions on Graphics (Proc. Siggraph)</em>, 2020. </p>
+            <p class="intro_line">[<a href="https://mlchai.com/files/tan2020michigan.pdf">Paper</a>][<a href="http://home.ustc.edu.cn/~cd722522/videos/coherent_supp_arxiv.mp4">Video</a>]</p>
+			<p class="intro_line"> </p>
+            </div>     
+	    </div>  	
+       <br></br>
+	   <!--论文结束-->
+    
+		
+		
+        
+     	
+    
+          
+          	  
+	</div><!-- end .gallery -->	
+	</div> <!-- end .container_16 -->
+		
+</div> <!-- end #publications -->

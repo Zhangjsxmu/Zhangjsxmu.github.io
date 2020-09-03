@@ -60,13 +60,14 @@ $(document).ready(function() {
 
 <div class="topbar"></div> <!-- top bar -->
 
-
-
 <nav>
 	<ul>
 		<!--导航链接，可以继续添加-->
-   	    <li><a href="#about">About</a></li>
-		<li><a href="#publications">Publications</a></li>
+   	    <li><a href="#about">简介</a></li>
+		<li><a href="#service">学术服务</a></li>
+		<li><a href="#award">获奖</a></li>
+		<li><a href="#publications">论文</a></li>
+		<li><a href="#project">科研项目</a></li>
 		<li></li>
 	</ul>
 </nav> 
@@ -84,16 +85,16 @@ $(document).ready(function() {
     	<div class="grid_6">        	
 			<div class="about_copy">
             <!--名字-->
-			<h1>姓名</h1>
+			<h1>张俊松</h1>
             <br><br>
 			<!--其余内容-->
-            <p>Associate Professor</p>	
-            <p><A href="https://www.cs.cityu.edu.hk/",target="_blank">Department of Artificial Intelligence</A></p>
-			<p><A href="https://www.cityu.edu.hk/cityu/index-sc.htm",target="_blank">Xiamen University</A></p>
+            <p>副教授</p>	
+            <p><A href="https://cogsci.xmu.edu.cn/index.htm",target="_blank">人工智能系</A></p>
+			<p><A href="https://informatics.xmu.edu.cn/index.htm",target="_blank">厦门大学 信息学院</A></p>
             <!--邮箱-->
 			<p><img src="img/icn_mail.png" alt="" /> zhangjs AT xmu.edu.cn</p>				
 			<!--地址-->
-			<p><img src="img/icn_address.png" alt="" /> Y6429, 6/F, School of Informatics , Xiamen University, Xiamen, Fujian Province<br />	
+			<p><img src="img/icn_address.png" alt="" /> 厦门大学海韵园行政楼C607A<br />	
 			
 			</div> <!-- end .about_copy -->
 		</div> <!-- end .grid_6 -->
@@ -103,20 +104,20 @@ $(document).ready(function() {
 	
 	<div class="grid_6">
 			<div class="about_copy2">	
-            <h2>short bio  </h2>	
-            <br>	
-			<p>I am an Associate Professor with the <A href="https://www.ai.xmu.edu.cn/ ">Department of Artificial Intelligence</A>, <A href=" https://www.cityu.edu.hk/cityu/index-sc.htm/"> City University of Hong Kong (CityU)</A> since Sep. 2010. Prior to that, I was a Researcher at <A href="https://www.microsoft.com/en-us/research/group/visual-computing/">Visual Computing Group</A>, Microsoft Research Asia (MSRA) from 2015 to 2018. I received my dual Ph.D. degrees from Zhejiang University and Hong Kong University of Science and Technology, under the supervision of  Prof. <A href="http://www.cad.zju.edu.cn/home/jhyu/English.htm">Jinhui Yu</A> and Prof. <A href="http://www.cse.ust.hk/~psander/">Pedro V. Sander</A>.</p>
-           </div> <!-- end .about_copy -->
+            <h2>个人简介</h2>	
+            <br>
+			<p>博士，副教授，2008年3月毕业于浙江大学计算机辅助设计与图形学国家重点实验室，获计算机科学与技术工学博士学位。2008年3月至2010年5月，为厦门大学数学科学学院“人工智能基础”博士后研究人员，2010年5月起在厦门大学人工智能系工作，其中2014年底至2016年初在美国南加州大学(USC)、加州理工学院(Caltech)等校访问学习。主要研究领域为数字媒体与人机交互、脑与认知科学、人工智能、艺术认知与计算，在国内外期刊和会议，如《Nature Communications》,《IEEE Transactions on Visualization and Computer Graphics》(TVCG)，《ACM Transactions on Applied Perception》(TAP), 《Computer Graphics Forum 》,《Pattern Recognition》,《Brain》,《Human Brain Mapping》《Brain Research》，《Neuroscience》,《中国科学：信息科学》等上面发表论文40余篇，获授权国家发明专利7项。先后主持国家自然科学基金（2项）、航空科学基金，参与863、973、国家自然基金等项目十余项。2014年指导本科生获中国大学生智能设计竞赛一等奖、优秀指导教师奖，2016年指导研究生获中国计算机辅助设计与图形学大会最佳论文奖。</p>
+			</div> <!-- end .about_copy -->
 	</div> <!-- end .grid_6 -->
 	
 	<div class="grid_5">
 		<div class="skills">
-			<h2>Research Interests</h2>
+			<h2>研究方向</h2>
+			<br>
 			<ul>
-				<li><div class="skill2"><p><strong>Computer Graphics</strong></p></div></li>
-				<li><div class="skill3"><p><strong>Brain and Cognition Computing</strong></p></div></li>
-				<li><div class="skill4"><p><strong>Art Cognition and Computing</strong></p></div></li>
-
+				<li><div class="skill2"><p><strong>计算机图形学</strong></p></div></li>
+				<li><div class="skill3"><p><strong>脑与认知科学</strong></p></div></li>
+				<li><div class="skill4"><p><strong>艺术认知与计算</strong></p></div></li>
 			</ul>
 		</div> <!-- end .skills -->
 	</div> 
@@ -126,44 +127,165 @@ $(document).ready(function() {
 </div></div> <!-- end #about -->
 <div class="about_bg_bottom"></div><!-- end #about -->
 
-<div id="publications">
+<div id="service">
 	<div class="container_16">
-	
 		<div class="subheader">
-			<div class="subheader_line"></div><h2>publications</h2>
+			<div class="subheader_line"></div><h2>学术服务</h2>
 			<div class="subheader_line"></div>
 		</div>	
     <div class="gallery">
-    
-		<!--每添加一篇论文-->
         <div class="container_16">
-            <div class="grid_5">
-				<!--每回添加图片，styles.css添加下图片-->
-				<a href="img/image0.png" class="single_image"><div class="screenshot0 ss"></div></a>
-            </div>
-         
-            <div class="tt">        
-			<p>Zhentao Tan, Menglei Chai, Dongdong Chen, <strong>Jing Liao</strong>, Qi Chu, Lu Yuan, Sergey Tulyakov, Nenghai Yu. <strong> MichiGAN: Multi-Input-Conditioned Hair Image Generation for Portrait Editing</strong>, <em>ACM Transactions on Graphics (Proc. Siggraph)</em>, 2020. </p>
-            <p class="intro_line">[<a href="https://mlchai.com/files/tan2020michigan.pdf">Paper</a>][<a href="http://home.ustc.edu.cn/~cd722522/videos/coherent_supp_arxiv.mp4">Video</a>]</p>
-			<p class="intro_line"> </p>
-            </div>     
+		  <p>中国图象图形学学会数码艺术专业委员会委员，2011-</p>
+		  <p>中国计算机学会自然语言处理专业委员会委员，2012-</p>
+		  <p>中国人工智能学会智能创意与数字艺术专业委员会委员，2012-</p>
+		  <p>中国图象图形学学会文档图像分析与识别专业委员会委员，2016-</p>
+		  <p>中国文字字体设计与研究中心（北京大学），专家工作委员会委员,2016-</p>
+		  <p>中国通信学会移动传媒与文化计算专业委员会委员，2019</p>
+		  <p>福建省人工智能学理事，2016-</p>
+		  <p>厦门大学知识论与认知科学研究中心,副主任,2011-</p>
+		  <p>Brain Informatics，International Workshop on Computational Neuroaesthetics，Workshop Chair，2019</p>
+		  <p>中国计算机图形学大会（Chinagraph），中国计算机辅助设计与图形学大会(China CAD&CG)，中国文化计算大会，全国文字与计算研讨会(NSCC),NLP&CC, HAVE，GMP等国内外学术会议程序委员会或组织委员会委员</p>
 	    </div>  	
        <br></br>
-	   <!--论文结束-->
-    
-		
-		
-        
-     	
-    
-          
+	</div><!-- end .gallery -->	
+	</div> <!-- end .container_16 -->	
+</div> 
+<div class="publications_bg_bottom"></div>
+
+<div id="award">
+	<div class="container_16">
+		<div class="subheader">
+			<div class="subheader_line"></div><h2>获奖</h2>
+			<div class="subheader_line"></div>
+		</div>	
+    <div class="gallery">
+        <div class="container_16">
+		  <p>2020年，第十六届全国智能CAD与数字娱乐会议暨第十四届全国数字娱乐与艺术研讨会(CIDE&DEA 2020),<strong>最佳论文奖</strong>，中国图象图形学学会。</p>
+		  <p>2016年，中国计算机辅助设计与图形学大会(China CAD&CG 2016)，<strong>最佳论文奖</strong>，中国计算机学会。</p>
+		  <p>2014年，全国大学生智能设计竞赛，<strong>一等奖，优秀指导教师奖</strong>，中国人工智能学会。</p>
+		  <p>2012年，厦门大学“田昭武学科交叉奖”，<strong>特等奖</strong>（艺术认知与计算）。</p>
+		  </div>  	
+       <br></br>
+	</div><!-- end .gallery -->	
+	</div> <!-- end .container_16 -->	
+</div> 
+<div class="about_bg_bottom"></div>
+
+<div id="publications">
+	<div class="container_16">
+			<div class="subheader">
+			<div class="subheader_line"></div><h2>论文</h2>
+			<div class="subheader_line"></div>
+		</div>	
+    <div class="gallery">
+	<h2>国际期刊</h2>
+	<br></br>
+	   <div class="container_16">       
+			<p>[1] Sanjay M Sisodiya , Christopher D Whelan, Sean N Hatton , Khoa Huynh , Andre Altmann, Mina Ryten , Annamaria Vezzani , Maria Eugenia Caligiuri , Angelo Labate, Antonio Gambardella , Victoria Ives-Deliperi , Stefano Meletti , Brent C Munsell , Leonardo Bonilha, Manuela Tondelli, Michael Rebsamen, Christian Rummel , Anna Elisabetta Vaudano , Roland Wiest , Akshara R Balachandra , Núria Bargalló, Emanuele Bartolini , Andrea Bernasconi , Neda Bernasconi , Boris Bernhardt , Benoit Caldairou , Sarah J A Carr, Gianpiero L Cavalleri , Fernando Cendes, Luis Concha , Patricia M Desmond, Martin Domin , John S Duncan, Niels K Focke, Renzo Guerrini, Khalid Hamandi , Graeme D Jackson, Neda Jahanshad , Reetta Kälviäinen, Simon S Keller, Peter Kochunov, Magdalena A Kowalczyk, Barbara A K Kreilkamp , Patrick Kwan Sara Lariviere, Matteo Lenge, Seymour M Lopez, Pascal Martin , Mario Mascalchi , José C V Moreira, Marcia E Morita-Sherman , Heath R Pardoe , Jose C Pariente, Kotikalapudi Raviteja , Cristiane S Rocha, Raúl Rodríguez-Cruces , Margitta Seeck, Mira K H G Semmelroch , Benjamin Sinclair , Hamid Soltanian-Zadeh, Dan J Stein, Pasquale Striano , Peter N Taylor , Rhys H Thomas , Sophia I Thomopoulos , Dennis Velakoulis, Lucy Vivash, Bernd Weber , Clarissa Lin Yasuda , <b>Junsong Zhang</b>, Paul M Thompson , Carrie R McDonald*, <b>The ENIGMA-Epilepsy working group: mapping disease from large datasets</b>，<i>Human Brain Mapping</i>, 2020, DOI:10.1002/hbm.25037. (脑与认知计算领域，SCI, IF: 4.42)</p>
+	    </div>  	
+       <br></br>
+        <div class="container_16">       
+			<p>[2] R. Li, M.Y. Zhu, J.N. Li, M.S. Bienkowski, N.N. Foster, T.I. Bowman, H. Hintiryan, C.L. Zhou, <b>J.S. Zhang</b>*, H.W. Dong*，<b>G-Cut: Precise Segmentation of Densely Connected Neuron Clusters</b>, <i>Nature Communications</i>, 2019. (脑与认知计算领域，SCI, IF: 12.353)</p>
+	    </div>  	
+       <br></br>
+        <div class="container_16">       
+			<p>[3] <b>J.S. Zhang</b>*, J.P. Fan, Z.S. Luo, <b>Generating Multi-destination Maps</b>, <i>IEEE Transactions on Visualization & Computer Graphics</i>, 2017, 23(8):1964-1976.</p>
+	    </div>  	
+       <br></br>
+        <div class="container_16">       
+			<p>[4] J.J. Zhang*, J.H. Yu, K. Zhang, X.J. Zheng，<b>J.S. Zhang</b>, <b>Computational Aesthetic Evaluation of Logos</b>, <i>ACM Transactions on Applied Perception</i>, 2017, 14(3): 1-21.</p>
+	    </div>  	
+       <br></br>
+        <div class="container_16">       
+			<p>[5] M.Y. Xu, J.F. Yao*, Z.H. Zhang, R. Li, B.R. Yang, C.Y. Li, J. Li, <b>J.S. Zhang</b>*, <b>Learning EEG Topographical Representation for Classification via Convolutional Neural Network</b>, <i>Pattern Recognition</i>, 2020, 105: 1-14.（脑与认知计算领域，SCI, IF:7.19）</p>
+	    </div>  	
+       <br></br>
+        <div class="container_16">       
+			<p>[6] <b>J.S. Zhang</b>*, Y. Wang, W.Y. Xiao, Z.S. Luo, <b>Synthesizing Ornamental Typefaces</b>, <i>Computer Graphics Forum</i>, 2017,36(1):64-75.</p>
+	    </div>  	
+       <br></br>
+        <div class="container_16">       
+			<p>[7] C.D. Whelan et al., ENIGMA-Epilepsy Working Group,Structural Brain Abnormalities in The Common Epilepsies Assessed in A Worldwide ENIGMA Study, <i>Brain</i>, 2018: 141; 391–408. (脑与认知计算领域，SCI, IF: 10.292)</p>
+	    </div>  	
+       <br></br>
+        <div class="container_16">       
+			<p>[8] R. Li, R.L. Qin, <b>J.S. Zhang</b>*, J.J.Wu, C.L. Zhou, <b>The Aesthetic Preference of Chinese Typefaces - An Event-Related Potential study</b>, <i>Brain Research</i>, 2015，1598: 57-65.  (脑与认知计算领域，SCI/SSCI, IF:2.56)</p>
+	    </div>  	
+       <br></br>
           	  
+	</div><!-- end .gallery -->
+
+	<div class="gallery">
+	<h2>国内期刊</h2>
+	<br></br>
+        <div class="container_16">       
+		   <p>[1] 张艳，谢源，洪辰，曲延云*，李睿，<b>张俊松</b>，李翠华，<b>基于多视角聚类分析的汉字字体审美偏好挖掘</b>，CIDE&DEA 2020，推荐到中国科学：信息科学，2020.(CIDE&DEA 2020 最佳论文奖)</p>
+	    </div>  	
+       <br></br>
+	   <div class="container_16">       
+			<p>[2] 郑瑞凌,<b>张俊松</b>*,<b>脑电时空多特征融合的数字图形界面认知负荷评价方法</b>,计算机辅助设计与图形学学报，2020，32（7）:1062-1069.</p>
+	    </div>  	
+       <br></br>
+        <div class="container_16">       
+			<p>[3] <b>张俊松</b>*，<b>数字书法研究综述</b>，中国科学:信息科学, 2019，2：143-158.</p>
+	    </div>  	
+       <br></br>
+        <div class="container_16">       
+			<p>[4] 黄培强，李昕，<b>张俊松</b>*，<b>结合网格保刚性的多目的地地图布局优化方法</b>，计算机辅助设计与图形学学报，2019，31（4）：622-628.</p>
+	    </div>  	
+       <br></br>
+        <div class="container_16">       
+			<p>[5] 杨祖义，<b>张俊松</b>*，<b>融合主题和视觉特征的图片拼贴画合成方法</b>,计算机辅助设计与图形学学报，2019，31（8）：1403-1409.</p>
+	    </div>  	
+       <br></br>
+        <div class="container_16">       
+			<p>[6] 戴庆辉,<b>张俊松</b>*,<b>考虑笔画和拓扑结构的字形美化方法</b>,中国科学:信息科学, 2017，47(4), 468-481.(China CAD&CG 2016 最佳论文奖)</p>
+	    </div>  	
+       <br></br>
+        <div class="container_16">       
+			<p>[7] 罗振珊，<b>张俊松</b>*，范接鹏，<b>结合因子图的多目的地地图布局优化</b>，中国图象图形学学报，2015, 20(3): 418-426.</p>
+	    </div>  	
+       <br></br>
+        <div class="container_16">       
+			<p>[8] 邓晓健，李彬，<b>张俊松</b>*，<b>基于统计的汉字字形视觉重心计算方法</b>，中文信息学报，2015，29（4）：159-165。</p>
+	    </div>  	</b>
+       <br></br>
+        <div class="container_16">       
+			<p>[9] <b>张俊松</b>,张悠苗,周昌乐, <b>书法临摹过程的交互式动画建模方法</b>,计算机辅助设计与图形学学报，2014，26（6），963-972.</p>
+	    </div>  	
+       <br></br>
+     	  
 	</div><!-- end .gallery -->	
 	</div> <!-- end .container_16 -->
-		
+
 </div> <!-- end #publications -->
 
-<div class="publications_bg_bottom"></div><!-- end #work -->
+<div class="publications_bg_bottom"></div>
+
+<div id="project">
+	<div class="container_16">
+		<div class="subheader">
+			<div class="subheader_line"></div><h2>科研项目</h2>
+			<div class="subheader_line"></div>
+		</div>	
+    <div class="gallery">
+        <div class="container_16">
+		  <p>[1]融合语义和人类审美认知机理的艺术图案分析与合成，<b>国家自然基金面上项目</b>，项目批准号：61772440，起止年月: 2018年1月-2021年12月，<b>主持</b>。</p>
+		  <p>[2]基于文本和图形语义融合的甲骨文辅助考释研究，<b>教育部、国家语委甲骨文研究与应用专项</b>，项目批准号：YWZ-J010，起止年月: 2018年1月-2019年12月，<b>参与</b>。</p>
+		  <p>[3]透视型头盔双目显示界面工效研究，<b>航空科学基金</b>，项目批准号：20165168007，起止年月：2016年10月-2018年9月，<b>主持</b>。</p>
+		  <p>[4]脑机融合感知和认知的计算理论与方法(子课题)，<b>国家重点基础研究发展规划973项目</b>，项目批准号：2013CB329502，2013年1月-2017年12月，<b>参与</b>。</p>
+		  <p>[5]结合空间优化和视觉认知的书法字形建模研究，项目批准号：A1706，<b>浙江大学CAD&CG国家重点实验室开放课题</b>，起止年月：2017年1月-2017年12月，<b>主持</b>。</p>
+		  <p>[6]交互式艺术汉字造型与绘制的关键技术研究，<b>国家自然基金青年项目</b>，项目批准号：60903129，起止年月: 2010年1月-2012年12月，<b>主持</b>。</p>
+		  <p>[7]艺术风格字形合成及其视觉效果的认知评价研究, <b>北京大学数字出版技术国家重点实验室开放课题</b>,起止年月：2012年9月-2014年8月，<b>主持</b>。</p>
+		  <p>[8]抑郁症患者前注意加工的心理生理机制，<b>厦门市科技惠民项目</b>，起止年月：2013-2015.项目批准号：3502Z20134036，<b>参与</b>。</p>
+		  <p>[9]汉字字形视觉重心的计算方法，<b>CCF中文信息技术开放课题基金</b>, 项目批准号：CCF2011-01-03，起止年月: 2011年9月-2012年8月，<b>主持</b>。</p>
+		  <p>[10]引入审美觉知机制的音乐创造性计算模型及其应用实现，<b>国家自然基金项目</b>，项目批准号：60975076，起止年月: 2010年1月-2012年12月，<b>主持</b>。</p>
+		  </div>  	
+       <br></br>
+	</div><!-- end .gallery -->	
+	</div> <!-- end .container_16 -->	
+</div> 
+
 
 <footer>
   <p>&nbsp;</p>
